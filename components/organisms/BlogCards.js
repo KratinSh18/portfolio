@@ -2,14 +2,9 @@ import React from "react";
 import BlogCard from "../molecules/BlogCard";
 
 const blogs = [
-  // {
-  //   name: 'Dev Community',
-  //   link: 'https://dev.to/jeffreythecoder',
-  //   imgSrc: 'dev.png',
-  // },
   {
     name: "Website",
-    link: "https://jeffreyzepengyu.medium.com/",
+    link: "https://portfolio-eight-lyart-97.vercel.app/",
     imgSrc: "medium.webp",
   },
 ];
