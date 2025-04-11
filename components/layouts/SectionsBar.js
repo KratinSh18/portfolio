@@ -101,17 +101,17 @@ function SectionsBar() {
         </IconButton>
       </Tooltip>
 
-      <Tooltip
-        title={<span style={{ fontSize: 13 }}>blogs</span>}
-        placement="left"
-      >
-        <IconButton
-          aria-label="blogs"
-          onClick={() => toggleDrawer(true, "Blogs")}
-        >
-          <BookOutlinedIcon sx={{ color: grey[700], width: 30, height: 30 }} />
-        </IconButton>
-      </Tooltip>
+      // <Tooltip
+      //   title={<span style={{ fontSize: 13 }}>blogs</span>}
+      //   placement="left"
+      // >
+      //   <IconButton
+      //     aria-label="blogs"
+      //     onClick={() => toggleDrawer(true, "Blogs")}
+      //   >
+      //     <BookOutlinedIcon sx={{ color: grey[700], width: 30, height: 30 }} />
+      //   </IconButton>
+      // </Tooltip>
 
       <Drawer
         anchor="right"
